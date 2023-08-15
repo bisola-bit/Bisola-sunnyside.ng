@@ -1,0 +1,278 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+  background-image: url(./images/desktop/image-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+  padding: 10px 50px;
+  height: 10vh;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  color: white;
+}
+
+
+.arrowdown{
+  height: 60px;
+}
+
+.center{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  padding-bottom: 150px;
+}
+
+
+.center h1{
+  font-family: cooper;
+  color: #fff;
+  font-size: 2.5em;
+  letter-spacing: 5px;
+}
+
+.contact{
+  background: #ffffff40;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.gridcontainer {
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns:50% 50%;
+}
+.box {
+  height: 35em;
+  /* border: 1px solid red; */
+}
+.box1 h2{
+  /* border: 1px solid red; */
+  width: fit-content;
+  margin-top: 120px;
+  margin-left: 150px;
+  font-size: 2em;
+  font-weight: bolder;
+}
+.box1 p{
+  /* border: 1px solid red; */
+  width: fit-content;
+  margin-top: 120px;
+  margin-left: 150px;
+}
+.box1 h3{
+  /* border: 1px solid red; */
+  margin-top: 10px;
+  margin-bottom:80px;
+  border-bottom: 4px solid;
+  border-radius: 150px;
+  font-weight: bolder;
+}
+
+.box1 h3{
+  /* border: 1px solid red; */
+  margin-top: 10px;
+  margin-bottom:80px;
+  border-bottom: 4px solid;
+  border-radius: 150px;
+  font-weight: bolder; 
+}
+
+
+.box2 {
+  background-image: url(./images/desktop/image-transform.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.box3{
+  background-image:url(./images/desktop/image-stand-out.jpg) ;
+}
+
+.box4 h2{
+  /* border: 1px solid red; */
+  width: fit-content;
+  margin-top: 120px;
+  margin-left: 150px;
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.box4 p{
+  /* border: 1px solid red; */
+  width: fit-content;
+  margin-top: 120px;
+  margin-left: 150px;
+}
+
+.box5{
+  /* border: 1px solid red; */
+  background-image: url(/images/desktop/image-graphic-design.jpg);
+}
+.box5 h2{
+  /* border: 1px solid red; */
+}
+
+.box5 p{
+  /* border: 1px solid red; */
+}
+
+.box6{
+  /* border: 1px solid red; */
+  background-image: url(/images/desktop/image-photography.jpg);
+}
+.box6  h2{
+  /* border: 1px solid red; */
+}
+
+.box6 p{
+  /* border: 1px solid red; */
+}
+
+
+#client{
+  text-transform: uppercase;
+  color:rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: max-content;
+  margin: auto;
+}
+main>div{
+  /* border: 5px solid red; */
+  height: 500px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+main>div>img{
+  border-radius: 100%;
+}
+.last-container{
+  width: 100vw;
+  height: 70vh;
+  /* border: 1px solid red; */
+  display: flex;
+}
+.img-milk{
+  width: 25vw;
+  height: 70vh;
+  /* border: 1px solid red; */
+  background-image: url(images/desktop/image-gallery-milkbottles.jpg);
+  background-size: cover;
+}
+.second-img{
+  width: 25vw;
+  height: 70vh;
+  /* border: 1px solid red; */
+  background-image: url(images/desktop/image-gallery-orange.jpg);
+  background-size: cover;
+}
+.third-img{
+  width: 25vw;
+  height: 70vh;
+  /* border: 1px solid red; */
+  background-image: url(images/desktop/image-gallery-cone.jpg);
+  background-size: cover;
+}
+.forth-img{
+  width: 25vw;
+  height: 70vh;
+  /* border: 1px solid red; */
+  background-image:url(images/desktop/image-gallery-sugarcubes.jpg);
+  background-size: cover;
+}
+.iconcontainer{
+  width: 100vw;
+  height: 40vh;
+  /* border: 1px solid red; */
+  background-color: rgb(92, 177, 92);
+}
+.ict{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  color: lightgreen;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  color: lightgreen;
+}
+h2{
+  /* border: 1px solid red;  */
+  font-size: 2em;
+  margin-top: 40px;
+  color: lightgreen;
+}
+
+ul{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none; 
+  margin-bottom: 20px;  
+}
+.diagram{
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px; 
+  gap: 30px;
+  align-items: center;
+  margin-left:600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
